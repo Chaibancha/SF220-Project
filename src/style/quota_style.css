@@ -1,0 +1,630 @@
+/* @media screen and (max-width:3024px) {
+    .side-bar {
+        position: absolute;
+        width: 300px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+        background: #DC0B00;
+    }
+    #logo {
+        position: absolute;
+        width: 180px;
+        height: 185.61px;
+        left: 60px;
+        top: 30px;
+    }
+    #line1 {
+        position: absolute;
+        width: 400px;
+        height: 0px;
+        left: 0px;
+        top: 240px;
+
+        border: 2px solid #FFFFFF;
+    }
+    #search {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 50px;
+        top: 290px;
+        font-size: 17px;
+
+        border: #FFFFFF;
+        background: #FFFFFF;
+        border-radius: 31.5px;
+    }
+    #quota {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 50px;
+        top: 365px;
+        font-size: 17px;
+      
+        border: #FFFFFF;
+        background: #FFFFFF;
+        border-radius: 31.5px;
+    }
+    #payment {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 50px;
+        top: 440px;
+        font-size: 17px;
+
+        background: #FFFFFF;
+        border: #FFFFFF;
+        border-radius: 31.5px;
+    }
+    #logout {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 50px;
+        top: 981px;
+        font-size: 17px;
+
+        border: #FFFFFF;
+        background: #FFFFFF;
+        border-radius: 31.5px;
+    }
+    #time-bar {
+    position: absolute;
+    width: 300px;
+    height:50px;
+    margin-left: 80px;
+    top: 930px;
+    
+    font-size: 30px;
+    color: #fff000;
+    }
+  
+    .top-content h1 {
+        position: absolute;
+        width: 1095px;
+        height: 160px;
+        left: 350px;
+        top: 0px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 120px;
+        align-items: center;
+        color: #FF0000;
+    }
+    .top-content h3 {
+        position: absolute;
+        width: 1095px;
+        height: 120px;
+        left: 350px;
+        top: 80px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 120px;
+        align-items: center;
+        color: #245564;
+    }
+  
+    .Main-content {
+        position: absolute;
+        width: 1100px;
+        height: 70px;
+        left: 350px;
+        top: 260px;
+    }
+    #item1 {
+        padding-left: 30px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item2 {
+        padding-left: 205px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item3 {
+        padding-left: 210px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item4 {
+        padding-left: 90px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item5 {
+        padding-left: 30px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item6 {
+        padding-left: 210px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item7 {
+        padding-left: 210px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item8 {
+        padding-left: 90px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item9 {
+        padding-left: 205px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item10 {
+        padding-left: 210px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item11 {
+        padding-left: 200px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item12 {
+        padding-left: 203px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item13 {
+        padding-left: 207px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item14 {
+        padding-left: 210px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item15 {
+        padding-left: 213px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item16 {
+        padding-left: 211px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item17 {
+        padding-left: 205px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #item18 {
+        padding-left: 212px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    .background {
+        border: 2px none rgba(245, 245, 245, 0.75);
+        margin-bottom: 20px;
+        width: 1100px;
+        height: 73.35px;
+        left: 438px;
+        top: 312.95px;
+        background: rgba(245, 245, 245, 0.75);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        transform: rotate(-0.12deg);
+    }
+    .background h1{
+        padding-top: 20px;
+    }
+    #cancel {
+        position: absolute;
+        width: 120px;
+        height: 40px;
+        left: 960px;
+        padding-top: 5px;
+
+        background: #000000;
+        border: #000000;
+        border-radius: 31.5px;
+    }
+    #cancel:hover {
+        background-color: #A50000;
+    }
+    #cancel span {
+        color: #fff;
+    }
+    #payment2 {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 450px;
+        top: 670px;
+        color: #fff;
+        border: #30B900;
+        background: #30B900;
+        border-radius: 31.5px;
+        font-size: 17px;
+    }
+} */
+
+@media screen and (max-width:2560px) {
+
+    /* Side bar */
+    .side-bar {
+        position: absolute;
+        width   : 300px;
+        height  : 1080px;
+        left    : 0px;
+        top     : 0px;
+
+        background: #DC0B00;
+    }
+
+    #logo {
+        position: absolute;
+        width   : 180px;
+        height  : 185.61px;
+        left    : 60px;
+        top     : 30px;
+    }
+
+    #line1 {
+        position: absolute;
+        width   : 300px;
+        height  : 0px;
+        left    : 0px;
+        top     : 240px;
+
+        border: 2px solid #FFFFFF;
+    }
+
+    #search {
+        position : absolute;
+        width    : 200px;
+        height   : 50px;
+        left     : 50px;
+        top      : 290px;
+        font-size: 17px;
+
+        border       : #FFFFFF;
+        background   : #FFFFFF;
+        border-radius: 31.5px;
+    }
+
+    #quota {
+        position : absolute;
+        width    : 200px;
+        height   : 50px;
+        left     : 50px;
+        top      : 365px;
+        font-size: 17px;
+
+        border       : #FFFFFF;
+        background   : #FFFFFF;
+        border-radius: 31.5px;
+    }
+
+    #payment {
+        position : absolute;
+        width    : 200px;
+        height   : 50px;
+        left     : 50px;
+        top      : 440px;
+        font-size: 17px;
+
+        background   : #FFFFFF;
+        border       : #FFFFFF;
+        border-radius: 31.5px;
+    }
+
+    #logout {
+        position : absolute;
+        width    : 200px;
+        height   : 50px;
+        left     : 50px;
+        top      : 981px;
+        font-size: 17px;
+
+        border       : #FFFFFF;
+        background   : #FFFFFF;
+        border-radius: 31.5px;
+    }
+
+    /* Top content */
+    .top-content h1 {
+        position   : absolute;
+        width      : 1095px;
+        height     : 160px;
+        left       : 350px;
+        top        : 0px;
+        font-family: 'Mulish';
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 96px;
+        line-height: 120px;
+        align-items: center;
+        color      : #FF0000;
+    }
+
+    .top-content h3 {
+        position   : absolute;
+        width      : 1095px;
+        height     : 120px;
+        left       : 350px;
+        top        : 80px;
+        font-family: 'Mulish';
+        font-style : normal;
+        font-weight: 600;
+        font-size  : 72px;
+        line-height: 120px;
+        align-items: center;
+        color      : #245564;
+    }
+
+    /* Main content */
+    .Main-content {
+        position: absolute;
+        width   : 1100px;
+        height  : 78px;
+        left    : 350px;
+        top     : 312.95px;
+    }
+    /* TU107 TU109 name*/
+    #item1 {
+        padding-left: 30px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* TU107 TU109 section*/
+    #item2 {
+        padding-left: 204px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* TU107 TU109 credit*/
+    #item3 {
+        padding-left: 210px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* TU107 TU109 TU105 TU050 num*/
+    #item4 {
+        padding-left: 90px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* SF210 name*/
+    #item5 {
+        padding-left: 30px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* SF210 section*/
+    #item6 {
+        padding-left: 210px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* SF210 credit*/
+    #item7 {
+        padding-left: 210px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* SF210 num*/
+    #item8 {
+        padding-left: 90px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* TU105 TU050 section*/
+    #item9 {
+        padding-left: 204px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* TU105 TU050 credit*/  
+    #item10 {
+        padding-left: 211px;
+        font-size: 24px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* MA111 section*/
+    #item11 {
+        padding-left: 199px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* CN311 section*/
+    #item12 {
+        padding-left: 203px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* SC135 section*/
+    #item13 {
+        padding-left: 207px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* MA111 credit*/
+    #item14 {
+        padding-left: 210px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* CN311 credit*/
+    #item15 {
+        padding-left: 211px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* SC135 credit*/
+    #item16 {
+        padding-left: 211px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* TU104 section*/
+    #item17 {
+        padding-left: 204px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* TU104 credit*/
+    #item18 {
+        padding-left: 213px;
+        font-size: 24px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* CN311 num*/
+    #item19 {
+        padding-left: 91px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+
+    .background {
+        border       : 2px none rgba(245, 245, 245, 0.75);
+        margin-bottom: 75px;
+        margin-top   : -55px;
+        width        : 1100px;
+        height       : 73.35px;
+        left         : 438px;
+        top          : 312.95px;
+        background   : rgba(245, 245, 245, 0.75);
+        box-shadow   : 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        transform    : rotate(-0.12deg);
+    }
+
+    .background h1 {
+        padding-top: 20px;
+    }
+
+    #cancel {
+        position   : absolute;
+        width      : 120px;
+        height     : 40px;
+        left       : 960px;
+        padding-top: 5px;
+
+        background   : #000000;
+        border       : #000000;
+        border-radius: 31.5px;
+    }
+
+    #cancel:hover {
+        background-color: #A50000;
+    }
+
+    #cancel span {
+        color: #fff;
+    }
+
+    #payment2 {
+        position     : absolute;
+        width        : 200px;
+        height       : 50px;
+        left         : 450px;
+        top          : 671px;
+        color        : #fff;
+        border       : #30B900;
+        background   : #30B900;
+        border-radius: 31.5px;
+        font-size    : 17px;
+    }
+
+    #time-bar {
+        position: absolute;
+        width   : 300px;
+        height  : 50px;
+        left    : 70px;
+        top     : 930px;
+
+        font-size: 30px;
+        color    : #fff000;
+    }
+}
+

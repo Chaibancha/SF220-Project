@@ -1,0 +1,674 @@
+/* @media screen and (max-width:3024px) {
+     .side-bar {
+        position: absolute;
+        width: 300px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+
+        background: #DC0B00;
+    }
+    #logo {
+        position: absolute;
+        width: 180px;
+        height: 185.61px;
+        left: 60px;
+        top: 30px;
+    }
+    #line {
+        position: absolute;
+        width: 300px;
+        height: 0px;
+        left: 0px;
+        top: 240px;
+
+        border: 2px solid #FFFFFF;
+    }
+    #search {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 50px;
+        top: 290px;
+        font-size: 17px;
+
+        border: #FFFFFF;
+        background: #FFFFFF;
+        border-radius: 31.5px;
+    }
+    #quota {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 50px;
+        top: 365px;
+        font-size: 17px;
+      
+        border: #FFFFFF;
+        background: #FFFFFF;
+        border-radius: 31.5px;
+    }
+    #payment {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 50px;
+        top: 440px;
+        font-size: 17px;
+
+        background: #FFFFFF;
+        border: #FFFFFF;
+        border-radius: 31.5px;
+    }
+    #logout {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 50px;
+        top: 981px;
+        font-size: 17px;
+
+        border: #FFFFFF;
+        background: #FFFFFF;
+        border-radius: 31.5px;
+    }
+    #time-bar {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-left: 70px;
+    top: 930px;
+    
+    font-size: 30px;
+    color: #fff000;
+    }
+
+    .top-content h1 {
+        position: absolute;
+        width: 1095px;
+        height: 160px;
+        left: 350px;
+        top: 0px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 120px;
+        align-items: center;
+        color: #FF0000;
+    }
+    .top-content h3 {
+        position: absolute;
+        width: 1095px;
+        height: 120px;
+        left: 350px;
+        top: 80px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 120px;
+        align-items: center;
+        color: #245564;
+    }
+    .main-content {
+        position: absolute;
+        width: 1100px;
+        height: 800px;
+        left: 350px;
+        top: 280px;
+        background: rgba(245, 245, 245, 0.75);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        transform: rotate(-0.12deg);
+    }
+    #Item1 {
+        padding-left: 20px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #Item2 {
+        padding-left: 190px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #Item3 {
+        padding-left: 190px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #Item4 {
+        padding-left: 190px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #Item5 {
+        padding-left: 20px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #Item6 {
+        padding-left: 190px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        
+    }
+    #Item7 {
+        padding-left: 190px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #Item8 {
+        padding-left: 190px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #Item9 {
+        padding-left: 195px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #Item10 {
+        padding-left: 195px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #Item11 {
+        padding-left: 190px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #Item12 {
+        padding-left: 190px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #Line2 {
+        margin-top: 0px;
+        margin-bottom: -10px;
+        border: 1.5px solid black;
+        width: 1095px;
+        height: 0px;
+        left: 1px;
+    }
+
+    #total-payment {
+        padding-left: 20px;
+        font-family: 'Mulish';
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    #total-credit {
+        padding-left: 575px;
+        
+        font-size: 25px;
+        
+        font-size: 'Mulish';
+        font-weight: 400;
+    }
+    #total1 {
+        padding-left: 175px;
+        font-family: 'Mulish';
+        font-weight: 400;
+        font-size: 25px;
+        
+    }
+    #total2 {
+        padding-left: 190px;
+        font-family: 'Mulish';
+        font-weight: 400;
+        font-size: 25px;
+        
+    }
+    #total3 {
+        padding-left: 165px;
+        font-family: 'Mulish';
+        font-weight: 400;
+        font-size: 25px;
+        
+    }
+    #qrcode-1 {
+        position: absolute;
+        width: 276px;
+        height: 220px;
+        left: 400px;
+        top: 200px;
+    }
+    #qrcode-2 {
+        position: absolute;
+        width: 276px;
+        height: 220px;
+        left: 400px;
+        top: 260px;
+    }
+    #qrcode-3 {
+        position: absolute;
+        width: 276px;
+        height: 220px;
+        left: 400px;
+        top: 320px;
+    }
+    #qrcode-4 {
+        position: absolute;
+        width: 276px;
+        height: 220px;
+        left: 400px;
+        top: 380px;
+    }
+    #qrcode-5 {
+        position: absolute;
+        width: 276px;
+        height: 220px;
+        left: 400px;
+        top: 440px;
+    }
+    #qrcode-6 {
+        position: absolute;
+        width: 276px;
+        height: 220px;
+        left: 400px;
+        top: 500px;
+    }
+    #qrcode-7 {
+        position: absolute;
+        width: 276px;
+        height: 220px;
+        left: 400px;
+        top: 540px;
+    }
+} */
+
+@media screen and (max-width:2560px){
+
+    /* Side bar */
+    .side-bar {
+        position: absolute;
+        width   : 300px;
+        height  : 1080px;
+        left    : 0px;
+        top     : 0px;
+
+        background: #DC0B00;
+    }
+
+    #logo {
+        position: absolute;
+        width   : 180px;
+        height  : 185.61px;
+        left    : 60px;
+        top     : 30px;
+    }
+
+    #Line1 {
+        position: absolute;
+        width   : 300px;
+        height  : 0px;
+        left    : 0px;
+        top     : 240px;
+
+        border: 2px solid #FFFFFF;
+    }
+
+    #search {
+        position : absolute;
+        width    : 200px;
+        height   : 50px;
+        left     : 50px;
+        top      : 290px;
+        font-size: 17px;
+
+        border       : #FFFFFF;
+        background   : #FFFFFF;
+        border-radius: 31.5px;
+    }
+
+    #quota {
+        position : absolute;
+        width    : 200px;
+        height   : 50px;
+        left     : 50px;
+        top      : 365px;
+        font-size: 17px;
+
+        border       : #FFFFFF;
+        background   : #FFFFFF;
+        border-radius: 31.5px;
+    }
+
+    #payment {
+        position : absolute;
+        width    : 200px;
+        height   : 50px;
+        left     : 50px;
+        top      : 440px;
+        font-size: 17px;
+
+        background   : #FFFFFF;
+        border       : #FFFFFF;
+        border-radius: 31.5px;
+    }
+
+    #logout {
+        position : absolute;
+        width    : 200px;
+        height   : 50px;
+        left     : 50px;
+        top      : 981px;
+        font-size: 17px;
+
+        border       : #FFFFFF;
+        background   : #FFFFFF;
+        border-radius: 31.5px;
+    }
+
+    /* Top content */
+    .Top-content h1 {
+        position   : absolute;
+        width      : 1095px;
+        height     : 160px;
+        left       : 350px;
+        top        : 0px;
+        font-family: 'Mulish';
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 96px;
+        line-height: 120px;
+        align-items: center;
+        color      : #FF0000;
+    }
+
+    .Top-content h3 {
+        position   : absolute;
+        width      : 1095px;
+        height     : 120px;
+        left       : 350px;
+        top        : 80px;
+        font-family: 'Mulish';
+        font-style : normal;
+        font-weight: 600;
+        font-size  : 72px;
+        line-height: 120px;
+        align-items: center;
+        color      : #245564;
+    }
+
+    /* Main content */
+    .mAin-content {
+        position     : absolute;
+        width        : 1100px;
+        height       : 760px;
+        left         : 350px;
+        top          : 280px;
+        background   : rgba(245, 245, 245, 0.75);
+        box-shadow   : 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        transform    : rotate(-0.12deg);
+    }
+    /* Name of TU107, TU109, SF210, SF210_2 */
+    #Item1 {
+        padding-left: 20px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* Sec of TU107, TU109 */
+    #Item2 {
+        padding-left: 203px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* Credit of TU107, TU109, SF210, SF210_2 */
+    #Item3 {
+        padding-left: 192px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* Cost of TU107, TU109, SF210, SF210_2 */
+    #Item4 {
+        padding-left: 190px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+
+    #Item5 {
+        padding-left: 20px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* Sec of SF220, SF230 */
+    #Item6 {
+        padding-left: 207.8px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+
+    }
+    /* Credit of TU104, TU105, TU050, MA111, SC135, CN311, SF220, SF230 */
+    #Item7 {
+        padding-left: 193px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* Cost of TU104, TU105, TU050, MA111, SC135, CN311, SF220, SF230 */
+    #Item8 {
+        padding-left: 190px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+    /* Sec of SF210, SF210_2 */
+    #Item9 {
+        padding-left: 208px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+
+    /* TU104 */
+    #Item10 {
+        padding-left: 203px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* TU105 TU050 section*/
+    #Item11 {
+        padding-left: 203px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* MA111 section*/
+    #Item12 {
+        padding-left: 198px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* SC135 */
+    #Item13 {
+        padding-left: 206.8px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* CN311 section*/
+    #Item14 {
+        padding-left: 201px;
+        font-size: 24.5px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+    }
+    /* SF220 credit*/
+    #Item15 {
+        padding-left: 193px;
+        font-family : 'Mulish';
+        font-style  : normal;
+        font-weight : 400;
+        font-size   : 25px;
+    }
+
+    #Line2 {
+        margin-top   : 0px;
+        margin-bottom: -10px;
+        border       : 1.5px solid black;
+        width        : 1095px;
+        height       : 0px;
+        left         : 1px;
+    }
+
+    #total-payment {
+        padding-left: 20px;
+        font-family : 'Mulish';
+        font-weight : 400;
+        font-size   : 25px;
+    }
+
+    #total-credit {
+        padding-left: 589px;
+        font-size   : 25px;
+        font-size   : 'Mulish';
+        font-weight : 400;
+        
+    }
+
+    #total1 {
+        padding-left: 178px;
+        font-family : 'Mulish';
+        font-weight : 400;
+        font-size   : 25px;
+    }
+
+    #total2 {
+        padding-left: 190px;
+        font-family : 'Mulish';
+        font-weight : 400;
+        font-size   : 25px;
+    }
+
+    #total3 {
+        padding-left: 165px;
+        font-family : 'Mulish';
+        font-weight : 400;
+        font-size   : 25px;
+    }
+
+    #total4 {
+        padding-left: 164px;
+        font-family : 'Mulish';
+        font-weight : 400;
+        font-size   : 25px;
+    }
+
+    /* qr code */
+    #qrcode-1 {
+        position: absolute;
+        width   : 276px;
+        height  : 220px;
+        left    : 400px;
+        top     : 220px;
+    }
+
+    #qrcode-2 {
+        position: absolute;
+        width   : 276px;
+        height  : 220px;
+        left    : 400px;
+        top     : 280px;
+    }
+
+    #qrcode-3 {
+        position: absolute;
+        width   : 276px;
+        height  : 220px;
+        left    : 400px;
+        top     : 360px;
+    }
+
+    #qrcode-4 {
+        position: absolute;
+        width   : 276px;
+        height  : 220px;
+        left    : 400px;
+        top     : 400px;
+    }
+
+    #qrcode-5 {
+        position: absolute;
+        width   : 276px;
+        height  : 220px;
+        left    : 400px;
+        top     : 440px;
+    }
+
+    #qrcode-6 {
+        position: absolute;
+        width   : 276px;
+        height  : 220px;
+        left    : 400px;
+        top     : 470px;
+    }
+
+    #qrcode-7 {
+        position: absolute;
+        width   : 276px;
+        height  : 220px;
+        left    : 400px;
+        top     : 505px;
+    }
+
+    #time-bar {
+        position: absolute;
+        width   : 300px;
+        height  : 50px;
+        left    : 70px;
+        top     : 930px;
+
+        font-size: 30px;
+        color    : #fff000;
+    }
+}
